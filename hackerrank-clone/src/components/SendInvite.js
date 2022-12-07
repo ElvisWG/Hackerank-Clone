@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
-import SearchIcon from "@mui/icons-material/Search";
+// import SearchIcon from "@mui/icons-material/Search";
 import styled from "styled-components";
 import Sidebar from "../components/bar/Sidebar";
 import { addAssessment, submitContactReqToServer } from "../components/authorization/Apicall";
@@ -90,7 +90,7 @@ const SendInvite = () => {
                   placeholder="Student Email"
                 />
                 <div className="searchIcon">
-                  <SearchIcon onClick={handleSearch} fontSize="large" />
+                  {/* <SearchIcon onClick={handleSearch} fontSize="large" /> */}
                 </div>
               </div>
             </FormInput>

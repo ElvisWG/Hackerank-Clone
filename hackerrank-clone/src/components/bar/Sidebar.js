@@ -23,7 +23,6 @@ function Sidebar() {
     <div className="side-nav">
       <Link to="/">
         <div className="myLogo">
-          <img src={image} alt="wewe" />
         </div>
       </Link>
 

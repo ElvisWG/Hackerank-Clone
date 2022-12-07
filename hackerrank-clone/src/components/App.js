@@ -11,8 +11,7 @@ import Login from "./authorization/Login";
 
 import QuizPage from "./pages/QuizPage";
 import StudentDashboard from "../components/pages/StudentDashboard";
-// import { assessmentColumns } from "../Helpers/assessmentDataTableSource";
-// import { attemptColumns, attemptRows } from "../Helpers/attemptsSource";
+import { assessmentColumns } from "./AssessmentData";
 import CreateQuiz from "../components/pages/CreateQuiz";
 import { studentInputs, mentorInputs } from "../components/students/InputDetails";
 import { useSelector } from "react-redux";
